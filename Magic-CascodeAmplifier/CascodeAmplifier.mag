@@ -1,0 +1,75 @@
+magic
+tech scmos
+timestamp 1731173465
+<< nwell >>
+rect -20 9 20 112
+<< ntransistor >>
+rect -1 -5 1 2
+rect -1 -29 1 -22
+<< ptransistor >>
+rect -1 69 1 105
+rect -1 17 1 53
+<< ndiffusion >>
+rect -8 -1 -1 2
+rect -4 -5 -1 -1
+rect 1 -2 5 2
+rect 1 -5 9 -2
+rect -8 -25 -1 -22
+rect -4 -29 -1 -25
+rect 1 -26 5 -22
+rect 1 -29 9 -26
+<< pdiffusion >>
+rect -11 73 -1 105
+rect -11 69 -9 73
+rect -5 69 -1 73
+rect 1 101 7 105
+rect 11 101 12 105
+rect 1 69 12 101
+rect -11 21 -1 53
+rect -11 17 -8 21
+rect -4 17 -1 21
+rect 1 49 8 53
+rect 1 17 12 49
+<< ndcontact >>
+rect -8 -5 -4 -1
+rect 5 -2 9 2
+rect -8 -29 -4 -25
+rect 5 -26 9 -22
+<< pdcontact >>
+rect -9 69 -5 73
+rect 7 101 11 105
+rect -8 17 -4 21
+rect 8 49 12 53
+<< polysilicon >>
+rect -1 105 1 108
+rect -1 66 1 69
+rect -1 53 1 56
+rect -1 14 1 17
+rect -1 2 1 5
+rect -1 -8 1 -5
+rect -1 -22 1 -19
+rect -1 -31 1 -29
+<< polycontact >>
+rect -1 -35 3 -31
+<< metal1 >>
+rect 7 105 11 114
+rect -9 62 -5 69
+rect -9 58 12 62
+rect 8 53 12 58
+rect -8 11 -4 17
+rect -8 7 9 11
+rect 5 2 9 7
+rect -8 -13 -4 -5
+rect -8 -17 9 -13
+rect 5 -22 9 -17
+rect -16 -29 -8 -25
+rect -1 -39 3 -35
+<< labels >>
+rlabel polysilicon 0 107 0 107 5 Vbias1
+rlabel metal1 9 112 9 112 6 Vdd
+rlabel polysilicon 0 55 0 55 1 Vbias2
+rlabel metal1 0 9 0 9 1 Vout
+rlabel polysilicon 0 -7 0 -7 1 Vbias3
+rlabel metal1 -15 -27 -15 -27 3 GND
+rlabel metal1 1 -38 1 -38 1 Vs
+<< end >>
