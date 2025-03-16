@@ -1,0 +1,29 @@
+* SPICE3 file created from CurrentMirror.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 a_133_n10# Vbias1 Vdd Vdd pfet w=48 l=4
++  ad=432 pd=114 as=1536 ps=434
+M1001 a_n16_n47# a_n10_n87# GND Gnd nfet w=20 l=4
++  ad=260 pd=106 as=460 ps=196
+M1002 a_75_n46# a_n10_n87# GND Gnd nfet w=20 l=4
++  ad=260 pd=106 as=0 ps=0
+M1003 Vbias2 Vbias2 Vdd Vdd pfet w=40 l=10
++  ad=280 pd=94 as=0 ps=0
+M1004 a_n10_n87# Vbias3 a_n16_n47# Gnd nfet w=20 l=4
++  ad=140 pd=54 as=0 ps=0
+M1005 Vbias2 Vbias3 a_31_n46# Gnd nfet w=20 l=4
++  ad=140 pd=54 as=260 ps=106
+M1006 Vbias1 Vbias3 a_75_n46# Gnd nfet w=20 l=4
++  ad=140 pd=54 as=0 ps=0
+M1007 Vbias3 Vbias3 GND Gnd nfet w=10 l=4
++  ad=80 pd=36 as=0 ps=0
+M1008 Vbias3 Vbiasp Vdd Vdd pfet w=48 l=4
++  ad=432 pd=114 as=0 ps=0
+M1009 a_31_n46# a_n10_n87# GND Gnd nfet w=20 l=4
++  ad=0 pd=0 as=0 ps=0
+M1010 a_n10_n87# Vbiasp Vdd Vdd pfet w=48 l=4
++  ad=432 pd=114 as=0 ps=0
+M1011 Vbias1 Vbias2 a_73_n10# Vdd pfet w=48 l=4
++  ad=480 pd=116 as=384 ps=112
+C0 Vdd Gnd 21.66fF
